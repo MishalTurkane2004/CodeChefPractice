@@ -1,0 +1,54 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@MishalTurkane2004 
+MishalTurkane2004
+/
+CodeChefPractice
+Public
+Cannot fork because you own this repository and are not a member of any organizations.
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+CodeChefPractice/Tom and Jerry Chase
+@MishalTurkane2004
+MishalTurkane2004 Create Tom and Jerry Chase
+Latest commit a3ea5d2 1 hour ago
+ History
+ 1 contributor
+23 lines (20 sloc)  530 Bytes
+
+/* package codechef; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner kb=new Scanner(System.in);
+		int var=kb.nextInt();
+		for(int i=0;i<var;i++){
+		    int x= kb.nextInt();
+		    int y=kb.nextInt();
+		    
+		    if(x<y) System.out.println("YES");
+		    else System.out.println("NO");
+		}
+	}
+}
